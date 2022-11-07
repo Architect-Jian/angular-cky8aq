@@ -13,6 +13,9 @@ export class ProductListComponent {
   share() {
     window.alert('已经自动将信息分享到朋友圈!');
   }
+  onNotify() {
+    window.alert('当产品开始销售时，你会收到通知');
+  }
 }
 
 /*
